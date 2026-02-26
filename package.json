@@ -1,17 +1,17 @@
 {
-  "name": "vue-mongodb-backend",
+  "name": "railway-node-mongo",
   "version": "1.0.0",
-  "description": "Backend Express + MongoDB for Vue app",
+  "description": "Minimal Node + Express + MongoDB backend for Railway",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "mongoose": "^8.0.0"
-  },
   "engines": {
-    "node": "20.0"
+    "node": "20.x"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.13.0",
+    "cors": "^2.8.5"
   }
 }
