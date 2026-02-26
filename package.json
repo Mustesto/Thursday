@@ -2,7 +2,7 @@
   "name": "vue-mongodb-backend",
   "version": "1.0.0",
   "description": "Backend Express + MongoDB for Vue app",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
@@ -10,5 +10,8 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "mongoose": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=20 <=20.5"
   }
 }
