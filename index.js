@@ -1,3 +1,14 @@
-// run `node index.js` in the terminal
-
-console.log(`Hello Node.js v${process.versions.node}!`);
+{
+  "name": "vue-mongodb-backend",
+  "version": "1.0.0",
+  "description": "Backend Express + MongoDB for Vue app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0"
+  }
+}
